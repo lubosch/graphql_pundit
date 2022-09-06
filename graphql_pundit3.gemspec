@@ -30,8 +30,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency 'graphql', '>= 1.8', '< 3'
-  spec.add_dependency 'pundit', '~> 2.1.0'
+  spec.add_dependency 'graphql', '>= 2', '< 3'
+  spec.add_dependency 'pundit', '>= 2.1.0', '<3'
 
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'codecov', '~> 0.1.10'
